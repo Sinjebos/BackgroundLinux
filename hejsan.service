@@ -1,0 +1,8 @@
+[Unit]
+Description=A service to print hejsan
+ 
+[Service]
+ExecStart=/usr/bin/python3.8 /home/niklas/abc/main.py
+ 
+[Install]
+WantedBy=multi-user.target
